@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		F4A14C262473755E004438A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C252473755E004438A3 /* AppDelegate.swift */; };
 		F4A14C282473755E004438A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C272473755E004438A3 /* SceneDelegate.swift */; };
-		F4A14C2A2473755E004438A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C292473755E004438A3 /* ViewController.swift */; };
+		F4A14C2A2473755E004438A3 /* RepoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C292473755E004438A3 /* RepoVC.swift */; };
 		F4A14C2D2473755E004438A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A14C2B2473755E004438A3 /* Main.storyboard */; };
 		F4A14C2F2473755F004438A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A14C2E2473755F004438A3 /* Assets.xcassets */; };
 		F4A14C322473755F004438A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A14C302473755F004438A3 /* LaunchScreen.storyboard */; };
+		F4A14C4224737CF0004438A3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C4124737CEF004438A3 /* NetworkManager.swift */; };
+		F4A14C4624737D16004438A3 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C4424737D16004438A3 /* APIResult.swift */; };
+		F4A14C4724737D16004438A3 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C4524737D16004438A3 /* HTTPMethod.swift */; };
+		F4A14C4B24737D6C004438A3 /* APIEnvironmentPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C4924737D6C004438A3 /* APIEnvironmentPath.swift */; };
+		F4A14C4C24737D6C004438A3 /* EndPointRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C4A24737D6C004438A3 /* EndPointRouter.swift */; };
+		F4A14C4F24737DA0004438A3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C4E24737DA0004438A3 /* UIView+Extension.swift */; };
+		F4A14C5124737F46004438A3 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C5024737F46004438A3 /* RepoModel.swift */; };
+		F4A14C5924738174004438A3 /* RepoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C5824738174004438A3 /* RepoInteractor.swift */; };
+		F4A14C5C247398EE004438A3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F4A14C5B247398EE004438A3 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4A14C222473755E004438A3 /* PlayWithMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A14C252473755E004438A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A14C272473755E004438A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4A14C292473755E004438A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4A14C292473755E004438A3 /* RepoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoVC.swift; sourceTree = "<group>"; };
 		F4A14C2C2473755E004438A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A14C2E2473755F004438A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A14C312473755F004438A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A14C332473755F004438A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A14C4124737CEF004438A3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F4A14C4424737D16004438A3 /* APIResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		F4A14C4524737D16004438A3 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F4A14C4924737D6C004438A3 /* APIEnvironmentPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironmentPath.swift; sourceTree = "<group>"; };
+		F4A14C4A24737D6C004438A3 /* EndPointRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointRouter.swift; sourceTree = "<group>"; };
+		F4A14C4E24737DA0004438A3 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F4A14C5024737F46004438A3 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		F4A14C5824738174004438A3 /* RepoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoInteractor.swift; sourceTree = "<group>"; };
+		F4A14C5B247398EE004438A3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,152 @@
 		F4A14C242473755E004438A3 /* PlayWithMVP */ = {
 			isa = PBXGroup;
 			children = (
-				F4A14C252473755E004438A3 /* AppDelegate.swift */,
-				F4A14C272473755E004438A3 /* SceneDelegate.swift */,
-				F4A14C292473755E004438A3 /* ViewController.swift */,
-				F4A14C2B2473755E004438A3 /* Main.storyboard */,
-				F4A14C2E2473755F004438A3 /* Assets.xcassets */,
-				F4A14C302473755F004438A3 /* LaunchScreen.storyboard */,
-				F4A14C332473755F004438A3 /* Info.plist */,
+				F4A14C5B247398EE004438A3 /* .swiftlint.yml */,
+				F4A14C4024737AE3004438A3 /* Networking */,
+				F4A14C4824737D56004438A3 /* Helpers */,
+				F4A14C3B24737A6A004438A3 /* Model */,
+				F4A14C3E24737A86004438A3 /* Storyboards */,
+				F4A14C3A24737872004438A3 /* Scenes */,
+				F4A14C392473758A004438A3 /* Application */,
+				F4A14C3F24737AC8004438A3 /* Assets */,
+				F4A14C3D24737A7E004438A3 /* Configuration */,
 			);
 			path = PlayWithMVP;
+			sourceTree = "<group>";
+		};
+		F4A14C392473758A004438A3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C252473755E004438A3 /* AppDelegate.swift */,
+				F4A14C272473755E004438A3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F4A14C3A24737872004438A3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C5624738015004438A3 /* Repo */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F4A14C3B24737A6A004438A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C5024737F46004438A3 /* RepoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4A14C3D24737A7E004438A3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C332473755F004438A3 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F4A14C3E24737A86004438A3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C2B2473755E004438A3 /* Main.storyboard */,
+				F4A14C302473755F004438A3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F4A14C3F24737AC8004438A3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C2E2473755F004438A3 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F4A14C4024737AE3004438A3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C4124737CEF004438A3 /* NetworkManager.swift */,
+				F4A14C4324737CF6004438A3 /* Entities */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F4A14C4324737CF6004438A3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C4424737D16004438A3 /* APIResult.swift */,
+				F4A14C4524737D16004438A3 /* HTTPMethod.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F4A14C4824737D56004438A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C4924737D6C004438A3 /* APIEnvironmentPath.swift */,
+				F4A14C4A24737D6C004438A3 /* EndPointRouter.swift */,
+				F4A14C4D24737D90004438A3 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F4A14C4D24737D90004438A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C4E24737DA0004438A3 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4A14C5224737F90004438A3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C292473755E004438A3 /* RepoVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F4A14C5324737FEA004438A3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F4A14C5424737FF1004438A3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C5824738174004438A3 /* RepoInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F4A14C5524737FF7004438A3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F4A14C5624738015004438A3 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				F4A14C5524737FF7004438A3 /* Router */,
+				F4A14C5424737FF1004438A3 /* Interactor */,
+				F4A14C5324737FEA004438A3 /* Presenter */,
+				F4A14C5724738029004438A3 /* TableViewCells */,
+				F4A14C5224737F90004438A3 /* ViewController */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		F4A14C5724738029004438A3 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +232,7 @@
 				F4A14C1E2473755E004438A3 /* Sources */,
 				F4A14C1F2473755E004438A3 /* Frameworks */,
 				F4A14C202473755E004438A3 /* Resources */,
+				F4A14C5A247396E5004438A3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A14C5C247398EE004438A3 /* .swiftlint.yml in Resources */,
 				F4A14C322473755F004438A3 /* LaunchScreen.storyboard in Resources */,
 				F4A14C2F2473755F004438A3 /* Assets.xcassets in Resources */,
 				F4A14C2D2473755E004438A3 /* Main.storyboard in Resources */,
@@ -133,12 +290,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F4A14C5A247396E5004438A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4A14C1E2473755E004438A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A14C2A2473755E004438A3 /* ViewController.swift in Sources */,
+				F4A14C4224737CF0004438A3 /* NetworkManager.swift in Sources */,
+				F4A14C4C24737D6C004438A3 /* EndPointRouter.swift in Sources */,
+				F4A14C4624737D16004438A3 /* APIResult.swift in Sources */,
+				F4A14C5124737F46004438A3 /* RepoModel.swift in Sources */,
+				F4A14C4724737D16004438A3 /* HTTPMethod.swift in Sources */,
+				F4A14C2A2473755E004438A3 /* RepoVC.swift in Sources */,
+				F4A14C4B24737D6C004438A3 /* APIEnvironmentPath.swift in Sources */,
+				F4A14C5924738174004438A3 /* RepoInteractor.swift in Sources */,
+				F4A14C4F24737DA0004438A3 /* UIView+Extension.swift in Sources */,
 				F4A14C262473755E004438A3 /* AppDelegate.swift in Sources */,
 				F4A14C282473755E004438A3 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B39DQ9LWFN;
-				INFOPLIST_FILE = PlayWithMVP/Info.plist;
+				INFOPLIST_FILE = PlayWithMVP/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B39DQ9LWFN;
-				INFOPLIST_FILE = PlayWithMVP/Info.plist;
+				INFOPLIST_FILE = PlayWithMVP/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
