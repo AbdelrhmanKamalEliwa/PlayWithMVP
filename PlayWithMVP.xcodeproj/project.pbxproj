@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBEDAC9ACE49B17E0CB9AC42 /* Pods_PlayWithMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A73C41B444AF685F7FC1C9A /* Pods_PlayWithMVP.framework */; };
+		F49095A424740FE40084AE7F /* RepoVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49095A324740FE40084AE7F /* RepoVCPresenter.swift */; };
+		F49095A724741B630084AE7F /* RepoVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49095A624741B630084AE7F /* RepoVCRouter.swift */; };
 		F4A14C262473755E004438A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C252473755E004438A3 /* AppDelegate.swift */; };
 		F4A14C282473755E004438A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C272473755E004438A3 /* SceneDelegate.swift */; };
 		F4A14C2A2473755E004438A3 /* RepoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C292473755E004438A3 /* RepoVC.swift */; };
@@ -22,9 +25,22 @@
 		F4A14C5124737F46004438A3 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C5024737F46004438A3 /* RepoModel.swift */; };
 		F4A14C5924738174004438A3 /* RepoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A14C5824738174004438A3 /* RepoInteractor.swift */; };
 		F4A14C5C247398EE004438A3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F4A14C5B247398EE004438A3 /* .swiftlint.yml */; };
+		F4BD118924762E5E00740150 /* RepoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD118824762E5E00740150 /* RepoDetailsVC.swift */; };
+		F4BD11912476407D00740150 /* RepoDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD118F2476407D00740150 /* RepoDetailsCell.swift */; };
+		F4BD11922476407D00740150 /* RepoDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BD11902476407D00740150 /* RepoDetailsCell.xib */; };
+		F4BD11942476425C00740150 /* RepoDetailsVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD11932476425C00740150 /* RepoDetailsVCPresenter.swift */; };
+		F4BD11962476457100740150 /* RepoDetailsVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD11952476457100740150 /* RepoDetailsVCRouter.swift */; };
+		F4BD11982476476200740150 /* TableViewSectionTitleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD11972476476200740150 /* TableViewSectionTitleDataSource.swift */; };
+		F4D074E224747A49003B55B5 /* ReposCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D074E024747A49003B55B5 /* ReposCell.swift */; };
+		F4D074E324747A4A003B55B5 /* ReposCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D074E124747A49003B55B5 /* ReposCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A73C41B444AF685F7FC1C9A /* Pods_PlayWithMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayWithMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50913A954667084AA137B637 /* Pods-PlayWithMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWithMVP.debug.xcconfig"; path = "Target Support Files/Pods-PlayWithMVP/Pods-PlayWithMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		67D615BE87E7E9ABF76A86CB /* Pods-PlayWithMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWithMVP.release.xcconfig"; path = "Target Support Files/Pods-PlayWithMVP/Pods-PlayWithMVP.release.xcconfig"; sourceTree = "<group>"; };
+		F49095A324740FE40084AE7F /* RepoVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoVCPresenter.swift; sourceTree = "<group>"; };
+		F49095A624741B630084AE7F /* RepoVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoVCRouter.swift; sourceTree = "<group>"; };
 		F4A14C222473755E004438A3 /* PlayWithMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A14C252473755E004438A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4A14C272473755E004438A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +58,14 @@
 		F4A14C5024737F46004438A3 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
 		F4A14C5824738174004438A3 /* RepoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoInteractor.swift; sourceTree = "<group>"; };
 		F4A14C5B247398EE004438A3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		F4BD118824762E5E00740150 /* RepoDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsVC.swift; sourceTree = "<group>"; };
+		F4BD118F2476407D00740150 /* RepoDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsCell.swift; sourceTree = "<group>"; };
+		F4BD11902476407D00740150 /* RepoDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoDetailsCell.xib; sourceTree = "<group>"; };
+		F4BD11932476425C00740150 /* RepoDetailsVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsVCPresenter.swift; sourceTree = "<group>"; };
+		F4BD11952476457100740150 /* RepoDetailsVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsVCRouter.swift; sourceTree = "<group>"; };
+		F4BD11972476476200740150 /* TableViewSectionTitleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionTitleDataSource.swift; sourceTree = "<group>"; };
+		F4D074E024747A49003B55B5 /* ReposCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposCell.swift; sourceTree = "<group>"; };
+		F4D074E124747A49003B55B5 /* ReposCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReposCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +73,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEDAC9ACE49B17E0CB9AC42 /* Pods_PlayWithMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C91382458CE9AD92D47038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A73C41B444AF685F7FC1C9A /* Pods_PlayWithMVP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE095114BDFCDA8FAAFBF029 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50913A954667084AA137B637 /* Pods-PlayWithMVP.debug.xcconfig */,
+				67D615BE87E7E9ABF76A86CB /* Pods-PlayWithMVP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F4A14C192473755E004438A3 = {
 			isa = PBXGroup;
 			children = (
+				F4A14C5B247398EE004438A3 /* .swiftlint.yml */,
 				F4A14C242473755E004438A3 /* PlayWithMVP */,
 				F4A14C232473755E004438A3 /* Products */,
+				BE095114BDFCDA8FAAFBF029 /* Pods */,
+				04C91382458CE9AD92D47038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +119,6 @@
 		F4A14C242473755E004438A3 /* PlayWithMVP */ = {
 			isa = PBXGroup;
 			children = (
-				F4A14C5B247398EE004438A3 /* .swiftlint.yml */,
 				F4A14C4024737AE3004438A3 /* Networking */,
 				F4A14C4824737D56004438A3 /* Helpers */,
 				F4A14C3B24737A6A004438A3 /* Model */,
@@ -99,6 +143,7 @@
 		F4A14C3A24737872004438A3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F4BD118724762E3B00740150 /* RepoDetails */,
 				F4A14C5624738015004438A3 /* Repo */,
 			);
 			path = Scenes;
@@ -108,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				F4A14C5024737F46004438A3 /* RepoModel.swift */,
+				F4BD11972476476200740150 /* TableViewSectionTitleDataSource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +230,7 @@
 		F4A14C5324737FEA004438A3 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				F49095A324740FE40084AE7F /* RepoVCPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -199,6 +246,7 @@
 		F4A14C5524737FF7004438A3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				F49095A624741B630084AE7F /* RepoVCRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -218,6 +266,52 @@
 		F4A14C5724738029004438A3 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				F4D074E024747A49003B55B5 /* ReposCell.swift */,
+				F4D074E124747A49003B55B5 /* ReposCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		F4BD118724762E3B00740150 /* RepoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD118A24762E8F00740150 /* Router */,
+				F4BD118C24762E9B00740150 /* Presenter */,
+				F4BD118E2476404600740150 /* TableViewCells */,
+				F4BD118D24762EA500740150 /* ViewController */,
+			);
+			path = RepoDetails;
+			sourceTree = "<group>";
+		};
+		F4BD118A24762E8F00740150 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD11952476457100740150 /* RepoDetailsVCRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F4BD118C24762E9B00740150 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD11932476425C00740150 /* RepoDetailsVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F4BD118D24762EA500740150 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD118824762E5E00740150 /* RepoDetailsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F4BD118E2476404600740150 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD118F2476407D00740150 /* RepoDetailsCell.swift */,
+				F4BD11902476407D00740150 /* RepoDetailsCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -229,10 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4A14C362473755F004438A3 /* Build configuration list for PBXNativeTarget "PlayWithMVP" */;
 			buildPhases = (
+				2A6938F294B52D9A2D32C569 /* [CP] Check Pods Manifest.lock */,
 				F4A14C1E2473755E004438A3 /* Sources */,
 				F4A14C1F2473755E004438A3 /* Frameworks */,
 				F4A14C202473755E004438A3 /* Resources */,
 				F4A14C5A247396E5004438A3 /* ShellScript */,
+				C81C79D7591582594E9FEF1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,8 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A14C5C247398EE004438A3 /* .swiftlint.yml in Resources */,
+				F4D074E324747A4A003B55B5 /* ReposCell.xib in Resources */,
 				F4A14C322473755F004438A3 /* LaunchScreen.storyboard in Resources */,
 				F4A14C2F2473755F004438A3 /* Assets.xcassets in Resources */,
+				F4BD11922476407D00740150 /* RepoDetailsCell.xib in Resources */,
 				F4A14C2D2473755E004438A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +389,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2A6938F294B52D9A2D32C569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayWithMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81C79D7591582594E9FEF1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayWithMVP/Pods-PlayWithMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayWithMVP/Pods-PlayWithMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayWithMVP/Pods-PlayWithMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F4A14C5A247396E5004438A3 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,17 +452,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49095A424740FE40084AE7F /* RepoVCPresenter.swift in Sources */,
+				F4BD118924762E5E00740150 /* RepoDetailsVC.swift in Sources */,
 				F4A14C4224737CF0004438A3 /* NetworkManager.swift in Sources */,
 				F4A14C4C24737D6C004438A3 /* EndPointRouter.swift in Sources */,
+				F4BD11982476476200740150 /* TableViewSectionTitleDataSource.swift in Sources */,
 				F4A14C4624737D16004438A3 /* APIResult.swift in Sources */,
 				F4A14C5124737F46004438A3 /* RepoModel.swift in Sources */,
 				F4A14C4724737D16004438A3 /* HTTPMethod.swift in Sources */,
 				F4A14C2A2473755E004438A3 /* RepoVC.swift in Sources */,
 				F4A14C4B24737D6C004438A3 /* APIEnvironmentPath.swift in Sources */,
 				F4A14C5924738174004438A3 /* RepoInteractor.swift in Sources */,
+				F4BD11942476425C00740150 /* RepoDetailsVCPresenter.swift in Sources */,
+				F49095A724741B630084AE7F /* RepoVCRouter.swift in Sources */,
 				F4A14C4F24737DA0004438A3 /* UIView+Extension.swift in Sources */,
+				F4BD11912476407D00740150 /* RepoDetailsCell.swift in Sources */,
 				F4A14C262473755E004438A3 /* AppDelegate.swift in Sources */,
 				F4A14C282473755E004438A3 /* SceneDelegate.swift in Sources */,
+				F4BD11962476457100740150 /* RepoDetailsVCRouter.swift in Sources */,
+				F4D074E224747A49003B55B5 /* ReposCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +612,7 @@
 		};
 		F4A14C372473755F004438A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50913A954667084AA137B637 /* Pods-PlayWithMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +631,7 @@
 		};
 		F4A14C382473755F004438A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D615BE87E7E9ABF76A86CB /* Pods-PlayWithMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

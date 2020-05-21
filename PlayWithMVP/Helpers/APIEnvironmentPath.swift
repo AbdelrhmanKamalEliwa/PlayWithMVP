@@ -9,11 +9,9 @@
 import Foundation
 
 struct APIService {
-    
     static func baseURL() -> String {
         return APIEnvironmentPath.development.scheme() + APIEnvironmentPath.development.host()
     }
-    
 }
 
 enum APIEnvironmentPath {

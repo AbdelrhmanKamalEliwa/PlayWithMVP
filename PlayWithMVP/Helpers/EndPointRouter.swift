@@ -9,7 +9,5 @@
 import Foundation
 
 struct EndPointRouter {
-    
     static var getRepos: URL { return URL(string: APIService.baseURL() + "/users/square/repos")! }
-    
 }

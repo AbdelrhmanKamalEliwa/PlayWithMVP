@@ -1,0 +1,22 @@
+PODS:
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - SKActivityIndicatorView (1.0.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - SKActivityIndicatorView (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SKActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  SKActivityIndicatorView: 81c123380127ad497f9b57cd4d11347e40ab3427
+
+PODFILE CHECKSUM: 9d292e2ffa39f5e92d4e3ca48c8767b04a438c19
+
+COCOAPODS: 1.8.4

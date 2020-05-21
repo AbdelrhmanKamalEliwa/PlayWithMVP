@@ -13,7 +13,10 @@ class RepoInteractor {
     func getRepos(completionHandler: @escaping ([RepoModel]?, Error?) -> ()) {
         
         let networkManager = NetworkManager()
-        _ = networkManager.request(url: EndPointRouter.getRepos, httpMethod: .get, parameters: nil, headers: nil) { (result: APIResult<[RepoModel]>) in
+        _ = networkManager.request(
+        url: EndPointRouter.getRepos, httpMethod: .get,
+        parameters: nil, headers: nil) { (result: APIResult<[RepoModel]>) in
+            
             switch result {
             case .success(let data):
                 completionHandler(data, nil)
