@@ -52,9 +52,9 @@ class RepoVCPresenter {
                 self.repos = repos
                 self.view?.fetchingDataSuccess()
             }
-            
         }
     }
+    
     
     func getReposCount() -> Int {
         repos.count
@@ -76,7 +76,6 @@ class RepoVCPresenter {
         
         let userImage = owner.avatarUrl
         cell.displayUserImage(userImage)
-
     }
     
     func didSelectRow(index: Int) {

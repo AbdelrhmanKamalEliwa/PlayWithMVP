@@ -13,11 +13,15 @@ class RepoVC: UIViewController {
     
     @IBOutlet private weak var tableView: UITableView!
     var presenter: RepoVCPresenter?
+    fileprivate let interactor = RepoInteractor()
+    fileprivate let router = RepoVCRouter()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Repos"
         setupTableView()
-        presenter = RepoVCPresenter(view: self, interactor: RepoInteractor(), router: RepoVCRouter())
+        presenter = RepoVCPresenter(view: self, interactor: interactor, router: router)
         presenter?.viewDidLoad()
     }
 

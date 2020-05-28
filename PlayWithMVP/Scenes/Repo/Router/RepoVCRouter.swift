@@ -21,7 +21,9 @@ class RepoVCRouter {
     class func createRepoVC() -> UIViewController {
         let navigationController = mainStoryboard.instantiateViewController(identifier: Constants.identifier)
         let repoView = navigationController.children.first as? RepoView
-        let presenter = RepoVCPresenter(view: repoView, interactor: RepoInteractor(), router: RepoVCRouter())
+        let interactor = RepoInteractor()
+        let router = RepoVCRouter()
+        let presenter = RepoVCPresenter(view: repoView, interactor: interactor, router: router)
         repoView?.presenter = presenter
         return navigationController
     }

@@ -51,7 +51,7 @@ class RepoDetailsVCPresenter {
     
     func cellConfigura(cell: RepoDetailsCellView, forSection section: Int, forIndex index: Int) {
         guard let repo = repo else { return }
-        let data = [[repo.name], [repo.description], [repo.owner?.login]]
+        let data = [[repo.name], [repo.owner?.login], [repo.description]]
         guard let cellData = data[section][index] else { return }
         cell.displayCellData(cellData)
     }

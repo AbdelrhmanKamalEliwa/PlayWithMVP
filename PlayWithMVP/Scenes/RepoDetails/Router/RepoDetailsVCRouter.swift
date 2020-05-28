@@ -20,7 +20,6 @@ class RepoDetailsVCRouter {
     
     
     class func createRepoDetailsVC(repo: RepoModel) -> UIViewController {
-
         let repoDetailsVC = mainStoryboard.instantiateViewController(withIdentifier: Constants.identifier)
         if let repoDetailsView = repoDetailsVC as? RepoDetailsView {
             let presenter = RepoDetailsVCPresenter(repoDetailsView: repoDetailsView, repo: repo)
